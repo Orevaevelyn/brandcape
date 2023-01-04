@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Home-Page</title>
+ <link rel="stylesheet" href="index.css">
+ <link rel="shortcut icon" href="/images/Brand Icon.png" type="image/x-icon">
+ 
+</head>
+<body>
+ 
+ 
+  <div class="top-row">
+    <div><img src="/images/LOGO PNG.png"   alt="BrandCape-logo" class="logo"> </div>
+   <button type="button" class="nav-btn"><svg xmlns="http://www.w3.org/2000/svg" height="48" width="48"  ><path d="M6 36v-3h36v3Zm0-10.5v-3h36v3ZM6 15v-3h36v3Z"/></svg></button>
+  </div>
+  
+
+ 
+
+ <div><img src="/images/pngwing.com (2).png" alt="" class="background"></div>
+ <div class="nav-overlay "></div> 
+ 
+  <nav class="nav ">
+    <button type="button" class="close-btn"> <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48"><path d="m12.45 37.65-2.1-2.1L21.9 24 10.35 12.45l2.1-2.1L24 21.9l11.55-11.55 2.1 2.1L26.1 24l11.55 11.55-2.1 2.1L24 26.1Z"/></svg></button>
+   <a href="#BrandCape.html" class="navs" >Home</a>
+   <a href="#" class="navs">About</a>
+   <a href="#" class="navs" id="order" onclick="pop()">Order Now</a>
+   <a href="#" class="navs">Food</a>
+   <a href="/signup.html" target="_blank" class="navs">Sign-Up</a>
+   <a href="#" class="navs">Login</a> 
+  </nav>
+ 
+ 
+  <div class="heading">
+   <h1>We deliver delicious & healthy food</h1>
+   <p>Order online or book a table. We are always ready to fufill your demand. We provide your order within a short amount of time. Keep with us to take our delicious food.</p>   
+   <a href="#" class="booking">BOOK A TABLE</a>
+
+  </div>
+  
+  
+ 
+ 
+  <script>
+  {
+  const navMenu = document.querySelector(".nav");
+  const navOverlay = document.querySelector(".nav-overlay");
+  const navButton = document.querySelector(".nav-btn");
+  const closeBtn = document.querySelector(".close-btn")
+
+  navButton.addEventListener("click", () => {
+    navMenu.classList.add("nav-open");
+    navOverlay.classList.add("nav-overlay-open");
+  });
+
+  closeBtn.addEventListener("click", () => {
+    navMenu.classList.remove("nav-open");
+    navOverlay.classList.remove("nav-overlay-open");
+  });}
+
+function pop() {
+  
+  alert("Sign up first.");
+}
+   
+ </script> 
+</body>
+
+</html>

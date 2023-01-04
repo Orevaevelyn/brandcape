@@ -1,0 +1,115 @@
+body{
+ font-family: Arial, Helvetica, sans-serif;
+ 
+ 
+}
+
+
+
+.logo{
+ width: 150px;
+ height: 200%;
+ display: block;
+ padding:0 px 0px 0px 9px;
+ box-sizing: border-box;
+ 
+ 
+
+ 
+}
+h1{
+display: inline-block;
+text-align:left;
+width:50% ;
+}
+label>a{
+ text-decoration: none;
+ color: rgb(19, 126, 19);
+ 
+}
+
+label{
+ font-weight: 550;
+ color: #000000e1;
+
+
+}
+
+.terms{
+ font-weight: 300;
+ font-size: 0.8em;
+}
+.form1{
+ display: inline-block;
+ width: 100%;
+ margin-bottom: 0.5em;
+ margin-left: 0.3em;
+ margin-right: 0.3em;
+ 
+}
+.form1>input{
+
+border: 2px solid transparent;
+background-color: rgba(0, 0, 0, 0.11);
+border-radius: 3px;
+}
+
+.formss{
+ display: block;
+ margin-bottom: 2em;
+ 
+ 
+}
+
+.formss>input{
+ border: 2px solid transparent;
+background-color: rgba(0, 0, 0, 0.11);
+border-radius: 3px;
+width: 90%;
+ margin: 0 auto;
+
+margin-left: 0.4em;
+
+}
+ button{
+  color: white;
+  border: 3px solid transparent;
+  background-color: rgba(11, 180, 11, 0.911); 
+  display: block;
+  border-radius: 3px;
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 2em;
+  
+
+ }
+ p>a{
+  text-decoration: none;
+  color:  rgb(19, 126, 19);
+ }
+ .backhome{
+  text-decoration: none;
+  border: 1px solid transparent;
+  background-color: rgb(19, 126, 19);
+  color: #ffffff;
+  border-radius: 2px;
+  display: inline-block;
+  width: 4em;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+ }
+
+ .formz{
+  display: block;
+ }
+
+ 
+
+ .wrapper{
+  width: 90%;
+  margin: 0 auto;
+ }
+
+ 
